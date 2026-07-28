@@ -1,0 +1,24 @@
+{
+  "name": "genpark-pdf-document-table-data-extractor-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - PDF document table and unstructured text extractor.",
+  "author": "genpark",
+  "category": "productivity",
+  "tags": [
+    "productivity",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "pdf_name": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "extracted_tables": {
+      "type": "list"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
